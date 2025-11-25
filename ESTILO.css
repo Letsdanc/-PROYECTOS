@@ -1,0 +1,435 @@
+
+/* CODIGO PRINCIPAL */
+body{
+    background-color: black;
+    background-image: url("KSI.gif");
+}
+
+body:hover{
+    color: green;
+}
+
+#LETRADEMBERE{
+    font-size: 20px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#MUSICLOGO{
+    width: 77px;
+    height: 77px;
+}
+
+#MUSIC1{
+    width: 1400px;
+    height: 1100px;
+}
+
+
+#Buscador{
+    width: 774px;
+    height: 61px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#ESCUCHA1{
+    font-size: 30px;
+    flex-direction: column;
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 40px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#ESCUCHA2{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ESCUCHA3{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#img11{
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+
+
+#img12{
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+
+#img13{
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+
+#ESCUCHA_CAJA{
+    width: 517;
+    height: 111;
+    top: 41;
+    bottom: -32;
+}
+
+#VOLVER1{
+    width: 774px;
+    height: 61px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 40px;
+}
+
+#VOLVER1:hover{
+    color: darkblue;
+}
+
+#content{
+    display: flex; 
+}
+
+#content:hover{
+    color: black;
+}
+
+#content2{
+   display: flex;
+}
+
+#content3{
+  display: flex;
+}
+
+
+/* CODIGO SECUNDARIO */
+
+#Reproducir1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+#Reproducir1:hover{
+    color: orangered;
+}
+
+#Pausar1{
+    color: green;
+}
+
+#Reiniciar1:hover{
+    color: blue;
+} 
+
+#Repetir1:hover{
+    color: gray;
+}
+
+#Pausar1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+
+#Reiniciar1{
+   font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+
+#Repetir1{
+   font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+
+
+
+
+/* VAMO A ESTO */
+#Reproducir2{
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+#Reproducir2:hover{
+    color: orangered;
+}
+
+#Pausar2{
+    color: green;
+}
+
+#Reiniciar2:hover{
+    color: blue;
+} 
+
+#Repetir2:hover{
+    color: gray;
+}
+
+#Pausar2{
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+
+#Reiniciar2{
+   font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+
+#Repetir2{
+   font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+/*VAMOS A ESTO 2*/
+#Reproducir3{
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+#Reproducir3:hover{
+    color: orangered;
+}
+
+#Pausar3{
+    color: green;
+}
+
+#Reiniciar3:hover{
+    color: blue;
+} 
+
+#Repetir3:hover{
+    color: gray;
+}
+
+#Pausar3{
+    font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+
+#Reiniciar3{
+   font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+
+#Repetir3{
+   font-family: 'Times New Roman', Times, serif;
+    width: 210px;
+    height: 100px;
+    top: 13px;
+    bottom: -256px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
